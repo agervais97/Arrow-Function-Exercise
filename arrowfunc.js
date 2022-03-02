@@ -4,9 +4,9 @@ function double(arr) {
     })
 }
 
-double(arr) => arr.map(val => val *2);
+const double = arr => arr.map(val => val *2);
 
-squareAndFindEvens(numbers) => evens 
+const squareAndFindEvens = numbers => evens 
 
 let squares = numbers.map(num => num ** 2)
-let evens = sqaures.filter(square => square % 2 === 0)
+let evens = squares.filter(square => square % 2 === 0)
